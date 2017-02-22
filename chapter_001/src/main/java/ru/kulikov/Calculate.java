@@ -1,0 +1,11 @@
+package ru.kulikov;
+
+public class Calculate {
+	public String echo(String value) {
+	return String.format("%S %S %S", value, value, value);
+	}
+	public static void main(String[] args) {
+	Calculate calc = new Calculate();
+	System.out.println(calc.echo("ahh"));
+}
+}
